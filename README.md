@@ -1,6 +1,7 @@
 # Store
 Web-store template
 
+```
 my-webshop/
 ├── main.go
 ├── templates/
@@ -12,3 +13,4 @@ my-webshop/
     │   └── scripts.js
     └── images/
         └── product-placeholder.png
+```
