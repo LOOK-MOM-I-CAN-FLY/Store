@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Минимальный Web Магазин</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Добро пожаловать в Минимальный Web Магазин</h1>
+    <div class="products">
+        {{range .}}
+        <div class="product">
+            <img src="{{.ImageURL}}" alt="{{.Name}}">
+            <h2>{{.Name}}</h2>
+        </div>
+        {{end}}
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
